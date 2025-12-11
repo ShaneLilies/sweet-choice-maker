@@ -4,7 +4,6 @@ import { DessertCard } from "@/components/DessertCard";
 import { VarietyCard } from "@/components/VarietyCard";
 import { RecipeView } from "@/components/RecipeView";
 import { Header } from "@/components/Header";
-import { ChatBot } from "@/components/ChatBot";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -113,7 +112,6 @@ const Index = () => {
         </div>
       </footer>
 
-      <ChatBot />
     </div>
   );
 };
